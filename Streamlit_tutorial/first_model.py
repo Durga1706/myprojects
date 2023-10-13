@@ -7,7 +7,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score, classification_report
 
 def user_input_features():
-    sepal_len = st.slider('sepal length', 4.3, 7.9, 5.4)
+    sepal_len = st.slider('sepal length', 4.3, 7.9, 5.4)  # min, max, default/current value
     sepal_wid = st.slider('sepal width', 2.0, 4.4, 3.4)
     petal_len = st.slider('petal length', 1.0, 6.9, 1.3)
     petal_wid = st.slider('petal width', 0.1, 2.5, 0.2)
